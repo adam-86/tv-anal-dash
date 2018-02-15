@@ -3,7 +3,7 @@
 
 ## TV Analytics Dashboard
 
-#### Veiw project here: https://adam-86.github.io/tv-anal-dash/
+#### Veiw project here: https://adam-86.github.io/tv-analytics-dash/
 
 #### What is it?
 Another small project done for the sole purpose of doing it. 
