@@ -124,6 +124,7 @@ h1,h2,h3
   padding: 0
 
 
+
 .side_bar_list_item
   font-size: .8vw
   color: #38393F
@@ -133,6 +134,9 @@ h1,h2,h3
   font-family: 'Heebo', sans-serif;
   font-weight: 300
   padding-top: 1.2vw
+  a
+    text-decoration: none
+    color: black
 
 
 .active
@@ -181,6 +185,8 @@ h1,h2,h3
   color: white
   font-family: 'Heebo', sans-serrif;
   text-align: center
+  transition: all .3s
+  cursor: pointer
   &:hover
     transform: scale(1.5)
 .date_indicator:nth-of-type(1)
@@ -199,16 +205,13 @@ h1,h2,h3
 .indicator_line
   position: absolute
   bottom: 0
-  width: .1%
+  width: .15%
   background-color: rgba(255, 255, 255, 0.30)
-
-
 
 .indicator_line:nth-of-type(1)
   position: absolute
   right: 50.7vw
   height: 20vw
-
 
 .indicator_line:nth-of-type(2)
   position: absolute
